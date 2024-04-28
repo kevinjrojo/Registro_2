@@ -31,3 +31,5 @@ continuar3.addEventListener("click", () => {
   punto3.classList.remove("punto-1");
   punto2.classList.remove("punto-1");
 });
+
+continuar3.addEventListener("submit", () => {});
