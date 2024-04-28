@@ -8,49 +8,65 @@
   </head>
   <body>
     <img src="./img/blur-radial.svg" alt="" class="gradiente" />
-    <form action="" class="formulario formulario1">
-      <h2 class="title">Registre</h2>
-      <p class="text">Name</p>
-      <input
-        type="text"
-        required
-        class="inputs"
-        placeholder="enter your name"
-      />
-      <p class="text">Email</p>
-      <input
-        type="email"
-        required
-        class="inputs"
-        placeholder="example@gmail.com"
-      />
-      <input type="submit" value="Continuar" class="button" />
-    </form>
-    <form action="" class="formulario">
-      <h2 class="title">¿Que temas te interesan?</h2>
-      <input
-        type="button"
-        value="Desarrolo de software"
-        class="inputs2"
-        required
-      />
-      <input
-        type="button"
-        value="Experiencia de usuario"
-        class="inputs2"
-        required
-      />
-      <input type="button" required value="Diseño gráfico" class="inputs2" />
-      <input type="submit" value="Continuar" class="button" />
+    <form>
+      <div class="formulario-1">
+        <h2 class="title">Registre</h2>
+
+        <label for="name" class="text">Name</label>
+        <input
+          type="text"
+          required
+          class="inputs"
+          placeholder="enter your name"
+        />
+        <label for="email" class="text">Email</label>
+        <input
+          type="email"
+          required
+          class="inputs"
+          placeholder="example@gmail.com"
+        />
+        <input type="button" value="Continuar" class="continuar1" />
+      </div>
+      <div action="" class="formulario-2 formulario">
+        <h2 class="title">¿Que temas te interesan?</h2>
+        <input
+          type="button"
+          value="Desarrolo de software"
+          class="inputs2"
+          required
+        />
+        <input
+          type="button"
+          value="Experiencia de usuario"
+          class="inputs2"
+          required
+        />
+        <input type="button" required value="Diseño gráfico" class="inputs2" />
+        <input type="submit" value="Continuar" class="continuar2" />
+      </div>
+      <div class="formulario-3 formulario">
+        <h2 class="title">Summary</h2>
+
+        <p>Name:</p>
+        <p>Email:</p>
+        <p>Topics:</p>
+        <ul>
+          <li>User experience</li>
+          <li>Graphic Desing</li>
+        </ul>
+        <input type="submit" value="Confirm" class="continuar3" />
+      </div>
     </form>
     <div class="next">
       <p class="text-2">step 1 of 3</p>
       <div class="puntos">
         <p class="punto-1">•</p>
-        <p class="punto-2">•</p>
-        <p class="punto-3">•</p>
+        <p class="pnt2">•</p>
+        <p class="pnt3">•</p>
       </div>
     </div>
     <img src="/img/blur-radial.svg" alt="" class="gradiente-1" />
+    <script src="./js/main.js"></script>
   </body>
 </html>
