@@ -18,3 +18,16 @@ continue2.addEventListener("click", () => {
   form3.classList.remove("formulario");
   punto3.classList.add("punto-1");
 });
+
+const continuar3 = document.querySelector(".continuar3");
+
+continuar3.addEventListener("click", () => {
+  Swal.fire({
+    title: "Datos Enviados",
+    icon: "success",
+  });
+  form.classList.remove("formulario");
+  form3.classList.add("formulario");
+  punto3.classList.remove("punto-1");
+  punto2.classList.remove("punto-1");
+});
