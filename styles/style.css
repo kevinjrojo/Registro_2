@@ -193,4 +193,24 @@ h1 {
   .inputs2 {
     width: 93%;
   }
+  .punto-1 {
+    border-radius: 50px;
+    color: #652cd1;
+    background-color: #212936;
+    height: 5%;
+    padding-bottom: 20%;
+    align-content: center;
+  }
+
+  .pnt2 {
+    height: 5%;
+    padding-bottom: 20%;
+    align-content: center;
+  }
+
+  .pnt3 {
+    height: 5%;
+    padding-bottom: 20%;
+    align-content: center;
+  }
 }
