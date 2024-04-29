@@ -24,15 +24,17 @@ continue2.addEventListener("click", () => {
 function mostrarDatos() {
   const nombre = document.querySelector(".name").value;
   const email = document.querySelector(".email").value;
+  const selec1 = document.querySelector(".selec1").value;
+  const selec2 = document.querySelector(".selec2").value;
+  const selec3 = document.querySelector(".selec3").value;
   const form3 = document.querySelector(".formulario-3");
 
   form3.innerHTML = `<h2 class="title">Datos</h2>
- <p>Nombre: ${nombre} </p>
- <p>Email: ${email} </p>
- <p>Topics:</p>
+ <p>Nombre: <br> ${nombre} </p>
+ <p>Email: <br> ${email} </p>
+ <p>Insteres:</p>
  <ul>
-   <li>User experience</li>
-   <li>Graphic Desing</li>
+   <li>${selec1}</li>
  </ul>
  <input type="button" value="Confirm" class="continuar3" />`;
 }
