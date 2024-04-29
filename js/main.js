@@ -10,26 +10,29 @@ continue1.addEventListener("click", () => {
 });
 
 const continue2 = document.querySelector(".continuar2");
-const form3 = document.querySelector(".formulario-3");
 const punto3 = document.querySelector(".pnt3");
+const form3 = document.querySelector(".formulario-3");
 
 continue2.addEventListener("click", () => {
-  form2.classList.add("formulario");
-  form3.classList.remove("formulario");
   punto3.classList.add("punto-1");
+  form3.classList.remove("formulario");
+  form2.classList.add("formulario");
+
+  mostrarDatos();
 });
 
-const continuar3 = document.querySelector(".continuar3");
+function mostrarDatos() {
+  const nombre = document.querySelector(".name").value;
+  const email = document.querySelector(".email").value;
+  const form3 = document.querySelector(".formulario-3");
 
-continuar3.addEventListener("click", () => {
-  Swal.fire({
-    title: "Datos Enviados",
-    icon: "success",
-  });
-  form.classList.remove("formulario");
-  form3.classList.add("formulario");
-  punto3.classList.remove("punto-1");
-  punto2.classList.remove("punto-1");
-});
-
-continuar3.addEventListener("submit", () => {});
+  form3.innerHTML = `<h2 class="title">Datos</h2>
+ <p>Nombre: ${nombre} </p>
+ <p>Email: ${email} </p>
+ <p>Topics:</p>
+ <ul>
+   <li>User experience</li>
+   <li>Graphic Desing</li>
+ </ul>
+ <input type="button" value="Confirm" class="continuar3" />`;
+}
