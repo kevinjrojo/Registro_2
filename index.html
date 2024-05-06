@@ -8,37 +8,41 @@
   </head>
   <body>
     <img src="./img/blur-radial.svg" alt="" class="gradiente" />
-    <form>
-      <div class="formulario-1">
-        <h2 class="title">Registre</h2>
 
-        <label for="nombre" class="text">Nombre</label>
-        <input
-          type="text"
-          class="name"
-          placeholder="Escriba su nombre"
-          required
-        />
-        <label for="email" class="text">Email</label>
-        <input
-          type="email"
-          class="email"
-          placeholder="SuEmail@gmail.com"
-          required
-        />
-        <button type="button" class="continuar1">Continuar</button>
-      </div>
-      <div action="" class="formulario-2 formulario">
-        <h2 class="title">¿Que temas te interesan?</h2>
-        <input type="button" value="Desarrolo de software" class="selec1" />
-        <input type="button" value="Experiencia de usuario" class="selec2" />
-        <input type="button" value="Diseño gráfico" class="selec3" />
-        <input type="button" value="Continuar" class="continuar2" />
-      </div>
-      <div class="formulario-3 formulario">
-        <input type="button" value="Confirm" class="continuar3" />
-      </div>
+    <!----------------- Primer formulario --------------->
+    <form class="formulario-1">
+      <h2 class="title">Registre</h2>
+
+      <label for="nombre" class="text">Nombre</label>
+      <input
+        type="text"
+        class="name"
+        placeholder="Escriba su nombre"
+        required
+      />
+      <label for="email" class="text">Email</label>
+      <input
+        type="email"
+        class="email"
+        placeholder="SuEmail@gmail.com"
+        required
+      />
+      <input type="submit" value="continuar" class="continuar1" required />
     </form>
+
+    <!----------------- segundo formulario --------------->
+    <form class="formulario-2">
+      <label for="pregunta" class="title">Que temas te interesan</label>
+      <selection>
+        <option value="option1" class="selec1">respuesta1</option>
+        <option value="option2" class="selec2">respuesta2</option>
+        <option value="option3" class="selec3">respuesta3</option>
+      </selection>
+      <input type="submit" value="continuar" class="continuar2" required />
+    </form>
+
+    <!----------------- Muestra de formulario --------------->
+    <form class="formulario-3"></form>
     <div class="next">
       <p class="text-2">step 1 of 3</p>
       <div class="puntos">
