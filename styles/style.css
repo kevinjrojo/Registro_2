@@ -95,38 +95,41 @@ h1 {
 }
 .selec1 {
   text-align: start;
-  font-size: 17px;
-  padding-left: 15px;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-top: 10px;
   margin-top: 10px;
   border: 1px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
   color: #4d5562;
-  height: 6vh;
+  height: 5vh;
   width: 100%;
 }
 .selec2 {
   text-align: start;
-  font-size: 17px;
-  padding-left: 15px;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-top: 10px;
   margin-top: 10px;
   border: 1px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
   color: #4d5562;
-  height: 6vh;
+  height: 5vh;
   width: 100%;
 }
 .selec3 {
   text-align: start;
-  font-size: 17px;
-  padding-left: 15px;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-top: 10px;
   margin-top: 10px;
   border: 1px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
   color: #4d5562;
-  height: 6vh;
+  height: 5vh;
   width: 100%;
 }
 .continuar2 {
