@@ -12,10 +12,17 @@ const punto2 = document.querySelector(".pnt2");
 const text = document.querySelector(".text-2");
 
 siguiente.addEventListener("click", () => {
-  form2.classList.remove("formulario");
-  form.classList.add("formulario");
-  punto2.classList.add("punto-1");
-  text.innerText = "step 2 of 3";
+  const name = document.querySelector(".name").value;
+  const email = document.querySelector(".email").value;
+
+  if (!email || !name) {
+    preventDefault();
+  } else {
+    form2.classList.remove("formulario");
+    form.classList.add("formulario");
+    punto2.classList.add("punto-1");
+    text.innerText = "step 2 of 3";
+  }
 });
 
 /*-------JavaScrip para segundo formulario ----*/
@@ -63,17 +70,21 @@ siguiente2.addEventListener("click", () => {
   const email = document.querySelector(".email").value;
   const punto3 = document.querySelector(".pnt3");
 
-  form3.classList.remove("formulario");
-  form2.classList.add("formulario");
-  punto3.classList.add("punto-1");
-  text.innerText = "step 3 of 3";
+  if (form2 == "") {
+    alert("Tiene que completar datos");
+  } else {
+    form3.classList.remove("formulario");
+    form2.classList.add("formulario");
+    punto3.classList.add("punto-1");
+    text.innerText = "step 3 of 3";
 
-  opciones.forEach((opcion) => {
-    form3.innerHTML = `<h3 class:"text-2">Datos</h3>
+    opciones.forEach((opcion) => {
+      form3.innerHTML = `<h3 class:"text-2">Datos</h3>
     <p>Nombre:<br>${name}</p>
     <p>Email:<br>${email}</p>
     <p>Especialidad</p>
     <ul><li>${opcion}</li></ul>
     <input type="submit" value="Enviar" class="continuar3" required />`;
-  });
+    });
+  }
 });

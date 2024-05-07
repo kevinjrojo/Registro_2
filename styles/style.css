@@ -8,15 +8,15 @@ h1 {
 }
 .gradiente {
   position: fixed;
-  left: -16%;
-  top: -36%;
-  max-width: 600px;
+  top: -25%;
+  left: -15%;
+  max-width: 35%;
 }
 .gradiente-1 {
-  max-width: 600px;
+  max-width: 35%;
   position: fixed;
   left: 80%;
-  top: 60%;
+  top: 65%;
 }
 .title {
   color: #e5e7eb;
@@ -90,47 +90,74 @@ h1 {
   padding: 10px;
   border-radius: 40px;
   border: none;
-  background-color: #652cd1;
+
+  background: rgb(101, 44, 209);
+  background: linear-gradient(
+    0deg,
+    rgba(101, 44, 209, 1) 35%,
+    rgba(132, 94, 238, 1) 100%
+  );
   color: white;
+}
+.selecciones {
+  text-align: center;
 }
 .selec1 {
   text-align: start;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 15px;
   padding-top: 10px;
-  margin-top: 10px;
+  padding-bottom: 4%;
+  margin-top: 10%;
   border: 1px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
   color: #4d5562;
-  height: 5vh;
-  width: 100%;
+}
+.selec1:hover {
+  background-color: #652cd1;
+  color: white;
+}
+.selec1:active {
+  transform: translateY(2px);
 }
 .selec2 {
   text-align: start;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 15px;
   padding-top: 10px;
-  margin-top: 10px;
+  padding-bottom: 4%;
+  margin-top: 5%;
   border: 1px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
   color: #4d5562;
-  height: 5vh;
-  width: 100%;
+}
+.selec2:hover {
+  background-color: #652cd1;
+  color: white;
+}
+.selec2:active {
+  transform: translateY(2px);
 }
 .selec3 {
   text-align: start;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 15px;
   padding-top: 10px;
-  margin-top: 10px;
+  padding-bottom: 4%;
+  margin-top: 5%;
   border: 1px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
   color: #4d5562;
-  height: 5vh;
-  width: 100%;
+}
+.selec3:hover {
+  background-color: #652cd1;
+  color: white;
+}
+.selec3:active {
+  transform: translateY(2px);
 }
 .continuar2 {
   margin-top: 20px;
@@ -139,7 +166,13 @@ h1 {
   padding: 10px;
   border-radius: 40px;
   border: none;
-  background-color: #652cd1;
+
+  background: rgb(101, 44, 209);
+  background: linear-gradient(
+    0deg,
+    rgba(101, 44, 209, 1) 35%,
+    rgba(132, 94, 238, 1) 100%
+  );
   color: white;
 }
 .continuar3 {
@@ -149,7 +182,13 @@ h1 {
   padding: 10px;
   border-radius: 40px;
   border: none;
-  background-color: #652cd1;
+
+  background: rgb(101, 44, 209);
+  background: linear-gradient(
+    0deg,
+    rgba(101, 44, 209, 1) 35%,
+    rgba(132, 94, 238, 1) 100%
+  );
   color: white;
 }
 
