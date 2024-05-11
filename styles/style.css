@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 body {
   background-color: #121826;
   color: #a1a1a9;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 h1 {
   position: absolute;
@@ -62,32 +65,36 @@ h1 {
   display: none;
 }
 .name {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding-left: 8px;
   border: 3px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
-  color: white;
+  color: #e5e7eb;
   height: 6vh;
   width: 100%;
   margin-top: 2%;
 }
 .email {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding-left: 8px;
   border: 3px solid #4d5562;
   border-radius: 10px;
   background-color: #212936;
-  color: white;
+  color: #e5e7eb;
   height: 6vh;
   width: 100%;
   margin-top: 2%;
 }
 .continuar1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-top: 20px;
-  margin-left: 26%;
-  width: 40%;
-  padding: 10px;
+  margin-left: 30%;
+  width: 33%;
+  padding: 13px;
   border-radius: 40px;
   border: none;
 
@@ -99,20 +106,16 @@ h1 {
   );
   color: white;
 }
-.selecciones {
-  text-align: center;
-}
+
 .selec1 {
   text-align: start;
-  padding-left: 20px;
+  padding: 15px;
   font-size: 15px;
-  padding-top: 10px;
-  padding-bottom: 4%;
-  margin-top: 10%;
+  margin-top: 5%;
   border: 1px solid #4d5562;
   border-radius: 10px;
-  background-color: #212936;
-  color: #4d5562;
+  background-color: #4d5562;
+  color: #a1a1a9;
 }
 .selec1:hover {
   background-color: #652cd1;
@@ -123,15 +126,14 @@ h1 {
 }
 .selec2 {
   text-align: start;
-  padding-left: 20px;
+
   font-size: 15px;
-  padding-top: 10px;
-  padding-bottom: 4%;
-  margin-top: 5%;
+  padding: 15px;
+  margin-top: 3%;
   border: 1px solid #4d5562;
   border-radius: 10px;
-  background-color: #212936;
-  color: #4d5562;
+  background-color: #4d5562;
+  color: #a1a1a9;
 }
 .selec2:hover {
   background-color: #652cd1;
@@ -142,15 +144,13 @@ h1 {
 }
 .selec3 {
   text-align: start;
-  padding-left: 20px;
   font-size: 15px;
-  padding-top: 10px;
-  padding-bottom: 4%;
-  margin-top: 5%;
+  padding: 15px;
+  margin-top: 3%;
   border: 1px solid #4d5562;
   border-radius: 10px;
-  background-color: #212936;
-  color: #4d5562;
+  background-color: #4d5562;
+  color: #a1a1a9;
 }
 .selec3:hover {
   background-color: #652cd1;
@@ -161,12 +161,13 @@ h1 {
 }
 .continuar2 {
   margin-top: 20px;
-  margin-left: 26%;
-  width: 40%;
-  padding: 10px;
+  margin-left: 30%;
+  width: 33%;
+  padding: 13px;
   border-radius: 40px;
   border: none;
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background: rgb(101, 44, 209);
   background: linear-gradient(
     0deg,
@@ -177,12 +178,13 @@ h1 {
 }
 .continuar3 {
   margin-top: 20px;
-  margin-left: 26%;
-  width: 40%;
-  padding: 10px;
+  margin-left: 30%;
+  width: 33%;
+  padding: 13px;
   border-radius: 40px;
   border: none;
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background: rgb(101, 44, 209);
   background: linear-gradient(
     0deg,
@@ -192,40 +194,67 @@ h1 {
   color: white;
 }
 
+.datos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 0%;
+}
+.datosNombre {
+  margin-left: 5%;
+  color: #e5e7eb;
+  margin-top: 0%;
+}
+.nombre {
+  margin-top: 0%;
+}
+.correo {
+  margin-top: 0%;
+}
+.datosEmail {
+  margin-top: 0%;
+  margin-left: -5%;
+  color: #e5e7eb;
+}
+.datosEspecialidad {
+  margin-left: -3%;
+  margin-top: -2%;
+  color: #e5e7eb;
+}
 .next {
   display: flex;
-  justify-content: center;
+  margin-left: 43%;
 }
 .text-2 {
-  margin-top: 2.5rem;
+  margin-top: 3%;
   color: #4d5562;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .puntos {
+  margin-left: 3%;
   display: flex;
-  margin-left: 2%;
-  font-size: 45px;
-  gap: 10%;
+  margin-top: 3.3%;
+  width: 3%;
 }
 .punto-1 {
-  border-radius: 50px;
-  color: #652cd1;
+  border-radius: 20px;
+  padding: 18%;
+  height: 7%;
   background-color: #212936;
-  height: 5%;
-  padding-bottom: 17%;
-  align-content: center;
+  margin-left: 25%;
 }
 
 .pnt2 {
-  height: 5%;
-  padding-bottom: 17%;
-  align-content: center;
+  margin-left: 25%;
+  border-radius: 20px;
+  padding: 18%;
+  height: 9%;
 }
 
 .pnt3 {
-  height: 5%;
-  padding-bottom: 17%;
-  align-content: center;
+  margin-left: 25%;
+  border-radius: 20px;
+  padding: 18%;
+  height: 9%;
 }
 
 /*------------ Vista Movil -----------------*/
