@@ -98,7 +98,9 @@ siguiente2.addEventListener("click", () => {
     </div>
     <p>Especialidad:</p>
     <ul><li class="datosEspecialidad">${opcion}</li></ul>
-    <input type="submit" value="Enviar" class="continuar3" required />`;
+    <input type="submit" value="Enviar" class="continuar3" required />
+    <input type="hidden" name="_next" value="https://kevinjrojo.github.io/Registro_2/" />
+    <input type="hidden" value="false" name="_captcha" />`;
     });
   }
 });

@@ -10,11 +10,7 @@
     <img src="./img/blur-radial.svg" alt="" class="gradiente" />
 
     <!----------------- Primer formulario --------------->
-    <form
-      class="formulario-1"
-      action="https://formsubmit.co/kevin.rojokevin17@gmail.com"
-      method="POST"
-    >
+    <form class="formulario-1">
       <h2 class="title">Register</h2>
 
       <label for="nombre" class="text">Name</label>
@@ -41,8 +37,13 @@
     </form>
 
     <!----------------- Muestra de formulario --------------->
-    <form class="formulario-3 formulario">
-      <input type="submit" value="Enviar" class="continuar3" required />`
+    <form
+      class="formulario-3 formulario"
+      action="https://formsubmit.co/kevin.rojokevin17@gmail.com"
+      method="POST"
+    >
+      <input type="hidden" value="false" name="_capchat" />
+      <input type="hidden" name="_netx" value="http://127.0.0.1:5500/" />
     </form>
     <div class="next">
       <p class="text-2">step 1 of 3</p>
