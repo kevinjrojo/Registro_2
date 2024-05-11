@@ -76,6 +76,8 @@ siguiente2.addEventListener("click", () => {
       icon: "error",
       title: "Faltan datos",
       text: "Elije una opción",
+      background: "#394150",
+      color: "#E5E7EB",
     });
   } else {
     form3.classList.remove("formulario");

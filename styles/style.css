@@ -222,7 +222,10 @@ h1 {
 }
 .next {
   display: flex;
-  margin-left: 43%;
+  justify-content: center;
+  width: 95%;
+  margin-left: 0%;
+  padding-left: 0%;
 }
 .text-2 {
   margin-top: 3%;
@@ -232,29 +235,30 @@ h1 {
 .puntos {
   margin-left: 3%;
   display: flex;
-  margin-top: 3.3%;
+  margin-top: 3%;
   width: 3%;
 }
 .punto-1 {
   border-radius: 20px;
-  padding: 18%;
-  height: 7%;
+  padding: 12%;
+  height: 8%;
+  margin-left: 20%;
   background-color: #212936;
-  margin-left: 25%;
 }
 
 .pnt2 {
-  margin-left: 25%;
+  margin-left: 20%;
+
   border-radius: 20px;
-  padding: 18%;
-  height: 9%;
+  padding: 12%;
+  height: 8%;
 }
 
 .pnt3 {
-  margin-left: 25%;
+  margin-left: 20%;
   border-radius: 20px;
-  padding: 18%;
-  height: 9%;
+  padding: 12%;
+  height: 8%;
 }
 
 /*------------ Vista Movil -----------------*/
