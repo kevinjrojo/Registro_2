@@ -22,7 +22,7 @@ siguiente.addEventListener("click", () => {
     form2.classList.remove("formulario");
     form.classList.add("formulario");
     delet.innerHTML =
-      "<p class='text-2'>step 2 of 3</p><div class='puntos'><img src='./img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo.png' alt='' class='pnt3' /></div>";
+      "<p class='text-2'>paso 2 de 3</p><div class='puntos'><img src='./img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo.png' alt='' class='pnt3' /></div>";
   }
 });
 
@@ -84,7 +84,7 @@ siguiente2.addEventListener("click", () => {
     form2.classList.add("formulario");
     punto3.classList.add("punto-1");
     delet.innerHTML =
-      "<p class='text-2'>step 3 of 3</p><div class='puntos'><img src='./img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /></div>";
+      "<p class='text-2'>paso 3 de 3</p><div class='puntos'><img src='./img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /></div>";
 
     opciones.forEach((opcion) => {
       form3.innerHTML = `<h2 class="title">Summary</h2>
