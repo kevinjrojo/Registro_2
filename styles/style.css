@@ -198,11 +198,12 @@ h1 {
   display: grid;
   grid-template-columns: auto auto auto;
   width: 0%;
+  padding: 0%;
 }
 .datosNombre {
-  margin-left: 5%;
   color: #e5e7eb;
-  margin-top: 0%;
+  margin-top: 5%;
+  margin-left: -25%;
 }
 .nombre {
   margin-top: 0%;
@@ -211,8 +212,8 @@ h1 {
   margin-top: 0%;
 }
 .datosEmail {
-  margin-top: 0%;
-  margin-left: -5%;
+  margin-top: 5%;
+  margin-left: -25%;
   color: #e5e7eb;
 }
 .datosEspecialidad {

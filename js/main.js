@@ -90,10 +90,10 @@ siguiente2.addEventListener("click", () => {
       form3.innerHTML = `<h2 class="title">Summary</h2>
     <div class="datos">
     <p class="nombre">Nombre:
-    <p class="datosNombre">${name}</p>
+    <p class="datosNombre"><br>${name}</p>
     </p>
     <p class="correo">Email:
-    <p class="datosEmail">${email}</p>
+    <p class="datosEmail"><br>${email}</p>
     </p>
     </div>
     <p>Especialidad:</p>
