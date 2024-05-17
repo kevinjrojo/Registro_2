@@ -7,3 +7,10 @@ Soporte técnico:  Para que los usuarios reporten problemas y soliciten ayuda.
 En el link les dejo página para la ponga a prueba 👇👇👇.
 
 https://kevinjrojo.github.io/Registro_2/
+
+Contactos:
+.Ig: https://www.instagram.com/programacion_kr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+
+.Linkedin: https://www.linkedin.com/in/kevin-javier-rojo-a24492222/
+
+.Gmail: kevin.rojokevin17@gmail.com
