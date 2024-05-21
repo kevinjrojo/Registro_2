@@ -88,7 +88,6 @@ siguiente2.addEventListener("click", () => {
 
     opciones.forEach((opcion) => {
       form3.innerHTML = `
-<form class="formulario formulario-3" action="https://formsubmit.co/${email}" method="POST">
 <h2 class="title">Datos</h2>
     <div class="datos">
     <p class="nombre">Nombre:
@@ -103,7 +102,7 @@ siguiente2.addEventListener("click", () => {
     <input type="submit" value="Enviar" class="continuar3" required />
     <input type="hidden" name="_next" value="https://kevinjrojo.github.io/Registro_2/" />
     <input type="hidden" value="false" name="_captcha" />
-    </form>`;
+    `;
     });
   }
 });
