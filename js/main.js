@@ -12,7 +12,7 @@ const punto2 = document.querySelector(".pnt2");
 const text = document.querySelector(".text-2");
 const delet = document.querySelector(".next");
 
-siguiente.addEventListener("click", () => {
+iguiente.addEventListener("click", () => {
   const name = document.querySelector(".name").value;
   const email = document.querySelector(".email").value;
 
@@ -87,7 +87,9 @@ siguiente2.addEventListener("click", () => {
       "<p class='text-2'>paso 3 de 3</p><div class='puntos'><img src='./img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /></div>";
 
     opciones.forEach((opcion) => {
-      form3.innerHTML = `<h2 class="title">Datos</h2>
+      form3.innerHTML = `
+<form class="formulario formulario-3" action="https://formsubmit.co/${email}" method="POST">
+<h2 class="title">Datos</h2>
     <div class="datos">
     <p class="nombre">Nombre:
     <p class="datosNombre"><br>${name}</p>
@@ -100,7 +102,8 @@ siguiente2.addEventListener("click", () => {
     <ul><li class="datosEspecialidad">${opcion}</li></ul>
     <input type="submit" value="Enviar" class="continuar3" required />
     <input type="hidden" name="_next" value="https://kevinjrojo.github.io/Registro_2/" />
-    <input type="hidden" value="false" name="_captcha" />`;
+    <input type="hidden" value="false" name="_captcha" />
+    </form>`;
     });
   }
 });
