@@ -87,7 +87,7 @@ siguiente2.addEventListener("click", () => {
       "<p class='text-2'>paso 3 de 3</p><div class='puntos'><img src='./img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /><img src='img/circulo-negro.png' alt='' class='punto-1' /></div>";
 
     opciones.forEach((opcion) => {
-      form3.innerHTML = `
+      form3.innerHTML = `<form class="formulario formulario-3" action="https://formsubmit.co/${email}" method="POST">
 <h2 class="title">Datos</h2>
     <div class="datos">
     <p class="nombre">Nombre:
