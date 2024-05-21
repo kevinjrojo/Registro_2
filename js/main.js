@@ -12,7 +12,7 @@ const punto2 = document.querySelector(".pnt2");
 const text = document.querySelector(".text-2");
 const delet = document.querySelector(".next");
 
-iguiente.addEventListener("click", () => {
+siguiente.addEventListener("click", () => {
   const name = document.querySelector(".name").value;
   const email = document.querySelector(".email").value;
 
